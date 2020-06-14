@@ -1,0 +1,93 @@
+body{ font-family: myfont3;   background-color: brown; font-family: url('fonts/Ubuntu/Ubuntu-Regular.ttf');}
+ 
+@font-face { font-family: myfont;
+src: url(fonts/Arvo/Arvo-Regular.ttf);}
+
+@font-face
+{font-family: myubuntu;
+src: url(fonts/Rakkas-Regular.ttf);
+
+} 
+
+@font-face { font-family: myfont3;
+    src: url(fonts/Ubuntu/Ubuntu-Regular.ttf);}
+
+
+
+#car{ font-family: sans-serif !important;  color: blue; font-size: 35px;}
+
+
+#header.header-scrolled{background-color: rgb(255, 255, 255);  }
+.nav-link{ font-family: myfont;   margin: 10px; color: black; font-weight: bold; font-size: large;
+}
+.nav-link:hover{color: rgb(0, 129, 214) !important; border-bottom: 3px double rgb(238, 27, 62);}
+
+.site-content{background-image: url(img/computer.jpg);
+background-attachment: fixed;
+background-size: cover;
+left: 0;
+} 
+.site-title{ font-family: Rakkas; font-weight: bold; color: rgb(157, 255, 0); text-align: center; margin-top: 20%; margin-bottom: 4%; font-family:myfont;}
+#site{  text-align: center; font-size: 18px; font-weight: bold;}
+
+/* .site-btn-1{margin-left: 30%;} */
+
+.site-btn-1, .site-btn-2{margin-top: 4%;
+
+margin-bottom: 20%;}
+
+.site-btn-1,.site-btn-2:hover{background-color: #71D4F2;}
+
+.hading-1 { font-family: myubuntu;  margin-top: 8%;}
+.heading-2{margin-top: 1.5%;}
+
+.para-1    {margin-bottom: 5%; text-transform: capitalize; font-family: sans-serif; color: rgb(143, 143, 143); }
+
+.hading-1, .heading-2 {color: rgb(26, 26, 26);}  
+
+.card-text{color: rgb(95, 95, 95); text-transform: capitalize;}
+.sec1 .container-fluid{ margin-top: 10%; background-image: url('img/pencil\ art.jpg');
+background-size: cover;  background-attachment: fixed; -moz-box-shadow: 0 0 10px #777777;
+-webkit-box-shadow: 0 0 10px #777777;
+box-shadow: 0 0 8px #777777;}  
+
+.heading-1, .para{width:80%;  align-items: center; color: whitesmoke; margin-top: 5%; margin-left: 7% ; } 
+
+.para{margin-top: 2%;}
+.texc{justify-content: center; text-align: center;}
+.sitebutn{width: 15%; margin-top: 3%; margin-left: 40%; margin-bottom: 7%; }
+.mgn{margin-bottom: 4%;}
+
+.slash{box-shadow:2px 2px 3px gray;}
+.sec3 .rln img{max-width: 60%;
+    border-radius: 50%;
+    margin: 0 0 30px 0; 
+    -moz-box-shadow: 5px 5px 5px #777777;
+    -webkit-box-shadow: 5px 5px 5px #777777;
+    box-shadow: 5px 5px 5px #acaaaa;} 
+
+    .head h1 {margin-top: 7%; margin-bottom: 5%;}
+
+    .pp{color: grey;} .bb{font-style: italic; font-weight: bold;}
+
+
+
+
+fas{background-color: purple; color: purple;}
+
+
+
+.rww{display: flex; flex-wrap: wrap;}
+.member {     text-align: center;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 12px 0px rgb(123, 189, 233);
+    padding: 30px 20px;
+    background: #fff;}
+
+.member img{
+    max-width: 60%;
+    border-radius: 50%;
+    margin: 0 0 30px 0;}
+    .clr{ color: rgb(94, 94, 94); font-size: large;}
+    .too{ width: 4%; display: flex; justify-content: end;}
+    .trr{display: flex; justify-content: end; margin-right: auto;}
